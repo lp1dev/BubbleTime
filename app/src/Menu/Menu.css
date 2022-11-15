@@ -1,0 +1,79 @@
+.App-menu {
+    z-index: 3;
+    position: absolute;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.menu-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffe082;
+    height: 10vh;
+    line-height: 10vh;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer-entry {
+    margin-left: 2vh;
+    margin-right: 2vh;
+    height: 10vh;
+    line-height: 10vh;
+}
+
+.menu-box{
+    margin: 3vh;
+    padding: 1vh;
+    border-radius: 1vh;
+    background-color: #f0f0f0;
+}
+
+.rotating{    
+    -webkit-animation: spin 10s infinite linear;
+}
+
+.levels {
+    display: flex;
+    flex-direction: line;
+    justify-content: space-around;
+}
+
+.box-level{
+    font-size: 20px;
+    margin: 1vh;
+    color: white;
+    width: 4vh;
+    height: 4vh;
+    line-height: 4vh;
+    border-radius: 50%;
+    background-color: #169ea7;
+}
+
+.locked{
+    background-color: #086c6d;
+}
+
+.soundSwitch {
+    background-color: #f0f0f0;
+    position: absolute;
+    height: 5vh;
+    width: 5vh;
+    right: 2vh;
+    top: 2vh;
+    transition: all 1s;
+    padding: 1vh;
+    border-radius: 30%;
+  
+}
+
+.on {
+    background-color: #169ea7;
+}
+
+@-webkit-keyframes spin {
+    0%   {-webkit-transform: rotate(0deg)}
+    100% {-webkit-transform: rotate(360deg)}
+}

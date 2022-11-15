@@ -1,0 +1,57 @@
+.App-board {
+    border-radius: 2%;
+    margin: auto;
+    margin-top: 10vh;
+    background-color: #f0f0f0;
+    width: 50vh;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.empty-square {
+    border: 2px solid #fff;
+    margin: 1%;
+    width: 8vh;
+    height: 8vh;
+    background: white;
+}
+
+.App-empty {
+    width: 8vh;
+    height: 8vh;
+    border-radius: 50%;
+    margin: 1vh;
+    visibility: hidden;
+}
+
+.App-box {
+    box-shadow: 0.5vh 0.5vh 0px #e2e2e2;
+    width: 8vh;
+    height: 8vh;
+    border-radius: 50%;
+    margin: 1vh;
+    transition: all 0.4s;
+    transition-property: ratio, border-radius;
+    background-color: #77eedf;
+}
+
+.App-box2 {
+    background-color: #169ea7;
+}
+
+.App-box3 {
+    background-color: #086c6d;
+}
+
+.App-box4 {
+    background-color: #e57066;
+}
+
+.App-box:active {
+    border-radius: 25%;
+    transform: scale(1.1);
+    
+}

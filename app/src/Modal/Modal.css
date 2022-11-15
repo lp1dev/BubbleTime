@@ -1,0 +1,24 @@
+.App-modal {
+    z-index: 4;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.68);
+    display: flex;
+    justify-content: center;
+}
+
+.App-modal-card {
+    border-radius: 1%;
+    margin: auto;
+    background-color: white;
+    height: 70vh;
+    width: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-p {
+    margin: 4vh;
+}

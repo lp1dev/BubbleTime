@@ -1,0 +1,60 @@
+.App-pause-modal {
+    z-index: 1;
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.68);
+    display: flex;
+    justify-content: center;
+}
+
+.App-pause-modal-card {
+    border-radius: 1%;
+    margin: auto;
+    background-color: white;
+    height: 70vh;
+    width: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-p {
+    margin: 4vh;
+}
+
+button {
+    font-size: 15pt;
+    color: white;
+    background-color: #169ea7;
+    width: 37.5vh;
+    height: 6vh;
+    border: none;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3vh;
+    border-radius: 0.5vh;
+}
+
+.sound-switch {
+    width: 17vh;
+    height: 6vh;
+    background-color: #f0f0f0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.switch-picto {
+    height: 3vh;
+    float:left;
+    line-height: 5vh;
+    padding: 0.5vh 2vh 0.5vh 2vh;
+    margin: 1vh;
+    float: left;
+    background-color: white;
+}
+
+.switch-picto.on{
+    float: right;
+}

@@ -1,0 +1,3 @@
+## Bubble Time
+    
+This project is a web-app game we made during the June 2017 ReactRiot hackathon. The idea came to us with bubblewrap. Bubbles are piling up and you need to pop them fast enough so that they don't reach the top of your board. Just like with bubblewrap, some bubbles are more difficult than others to pop, you'll need to be tenacious. However, beware of the pink bubbles! You shouldn't touch them if you want to survive.

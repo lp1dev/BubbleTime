@@ -1,0 +1,52 @@
+body{
+    overflow: hidden;
+}
+
+#hackbit-vote-widget {
+    position: relative;
+}
+
+.App {
+    text-align: center;
+    font-size: 3vh;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.App-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.App-header {
+  background-color: #ffe082;
+  height: 7vh;
+  color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-level {
+    color: white;
+    position: absolute;
+    left: 0;
+    padding: 2vh;
+}
+
+.App-timer {
+    line-height: 6vh;
+    font-size: 4vh
+}
+
+.App-play {
+    position: absolute;
+    height: 5vh;
+    top: 1vh;
+    right: 1vh;
+}
